@@ -1,0 +1,7 @@
+[user]
+	name = Bas Bonthuis
+	email = bonthuisbas@gmail.com
+[push]
+	default = simple
+[alias]
+	adog = log --all --decorate --oneline --graph
