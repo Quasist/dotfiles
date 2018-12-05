@@ -11,6 +11,7 @@ ln -s ${BASEDIR}/init.vim ~/.config/nvim/init.vim
 
 # tmux
 ln -s ${BASEDIR}/tmux.conf ~/.tmux.conf
+ln -s ${BASEDIR}/tmux-gitbar.conf ~/.tmux-gitbar.conf
 
 # bash
 ln -s ${BASEDIR}/bashrc ~/.bashrc

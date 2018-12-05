@@ -120,6 +120,9 @@ alias xctu="/home/quasist/Digi/XCTU-NG/app"
 alias cake='catkin_make'
 alias vim="nvim"
 alias vi="nvim"
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
 # added by Anaconda3 5.3.0 installer
 # >>> conda init >>>
 # !! Contents within this block are managed by 'conda init' !!
