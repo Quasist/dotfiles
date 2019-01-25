@@ -115,7 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-source /opt/ros/kinetic/setup.bash
 alias xctu="/home/quasist/Digi/XCTU-NG/app"
 alias cake='catkin_make'
 alias vim="nvim"
@@ -139,3 +138,6 @@ else
 fi
 unset __conda_setup
 # <<< conda init <<<
+export GOPATH=$HOME/gocode
+alias todo=todo2
+alias plsupgrade="sudo apt update && sudo apt -y upgrade"
